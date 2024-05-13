@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "38219ad8-6e0a-4ee8-8d7c-ba0cf9a77530",
+		"name": "GET Campus Details",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25479700"
+	},
+	"item": [
+		{
+			"name": "Campus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/Campuses",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"Campuses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CampusEcode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CampusECodes",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"CampusECodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CampusGroups",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CampusGroups",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"CampusGroups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CampusLists",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud//ds/campusnexus/CampusLists",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"",
+						"ds",
+						"campusnexus",
+						"CampusLists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CampusDetails",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$pw",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "$email",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CampusDetails",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"CampusDetails"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
